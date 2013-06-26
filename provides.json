@@ -1,6 +1,6 @@
 {
 	"providers": [
-		"Rtablada\Rtablada\WardrobeDisqus\WardrobeDisqusServiceProvider"
+		"Rtablada\WardrobeDisqus\WardrobeDisqusServiceProvider"
 	],
 	"aliases": [
 		{
