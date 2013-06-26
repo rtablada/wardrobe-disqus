@@ -18,7 +18,10 @@ class WardrobeDisqusServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		//
+		$this->app['disqus'] = $this->app->share(function($app)
+        {
+            return new WardrobeDisqus($app['config']);
+        });
 	}
 
 	/**
