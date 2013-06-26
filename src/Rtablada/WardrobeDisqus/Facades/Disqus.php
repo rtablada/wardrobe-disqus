@@ -9,6 +9,6 @@ class Disqus extends Facade {
 	 *
 	 * @return string
 	 */
-	protected static function getFacadeAccessor() { return 'disqus'; }
+	protected static function getFacadeAccessor() { return 'wardrobe-disqus'; }
 
 }

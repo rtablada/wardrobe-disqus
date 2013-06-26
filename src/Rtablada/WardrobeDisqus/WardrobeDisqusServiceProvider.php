@@ -18,10 +18,15 @@ class WardrobeDisqusServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app['disqus'] = $this->app->share(function($app)
+		$this->app['wardrobe-disqus'] = $this->app->share(function($app)
         {
             return new WardrobeDisqus($app['config']);
         });
+	}
+
+	public function boot()
+	{
+		$this->package('rtablada/wardrobe-disqus');
 	}
 
 	/**

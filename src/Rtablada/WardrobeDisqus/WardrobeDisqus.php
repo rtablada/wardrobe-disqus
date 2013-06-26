@@ -13,7 +13,7 @@ class WardrobeDisqus
 
 	public function comments()
 	{
-		$disqus_shortname = $this->config->get('rtablada::disqus_shortname');
+		$disqus_shortname = $this->config->get('wardrobe-disqus::disqus_shortname');
 
 		return
 			"<div id=\"disqus_thread\"></div>\n" .
