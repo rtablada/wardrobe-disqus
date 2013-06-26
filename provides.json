@@ -1,0 +1,11 @@
+{
+	"providers": [
+		"Rtablada\Rtablada\WardrobeDisqus\WardrobeDisqusServiceProvider"
+	],
+	"aliases": [
+		{
+			"alias": "Disqus",
+			"facade": "Rtablada\WardrobeDisqus\Facades\Disqus"
+		}
+	]
+}
