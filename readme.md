@@ -39,3 +39,4 @@ In Wardrobe CMS it is best to place this in individual pages, or within your the
     {{ Disqus::comments() }}
   </section>
 @stop
+```
