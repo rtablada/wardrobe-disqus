@@ -18,7 +18,7 @@ class WardrobeDisqus
 		return
 			"<div id=\"disqus_thread\"></div>\n" .
 			"<script type=\"text/javascript\">\n\t" .
-			"var disqus_shortname = '{$disqus_shortname	}';\n\t" .
+			"var disqus_shortname = '{$disqus_shortname}';\n\t" .
 			"(function() {\n\t\t" .
 			"var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;\n\t\t" .
 			"dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';\n\t\t" .
