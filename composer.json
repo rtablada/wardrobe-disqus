@@ -1,6 +1,11 @@
 {
     "name": "rtablada/wardrobe-disqus",
-    "description": "",
+    "description": "Fast, simple Disqus integration for Laravel",
+    "keywords": [
+        "laravel",
+        "wardrobe",
+        "comments"
+    ],
     "authors": [
         {
             "name": "Ryan Tablada",
