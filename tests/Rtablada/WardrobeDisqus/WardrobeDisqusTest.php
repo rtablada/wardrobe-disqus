@@ -9,7 +9,9 @@ class WardrobeDisqusTest extends \PHPUnit_Framework_Testcase
 		$this->resultComment = file_get_contents(__DIR__ . '/stubs/disqus.txt');
 
 		$config = m::mock('Illuminate\Config\Repository');
-		$config->shouldReceive('get')->once()->with('rtablada::disqus_shortname')->andReturn('example');
+		$config->shouldReceive('get')->once()
+			->with('wardrobe-disqus::disqus_shortname')
+			->andReturn('example');
 
 		$this->disqus = new WardrobeDisqus($config);
 	}
